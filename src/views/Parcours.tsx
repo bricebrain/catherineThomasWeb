@@ -9,7 +9,7 @@ import Banner from '../components/Banner'
          
   <div className='containerAbout'>
      
-      <h2> Peintre Plasticienne</h2>
+      <h2> Peintre Plasticienne / Designer Textile</h2>
       <p>Membre de l’Association Internationale des Arts Plastiques (UNESCO)
         Née en 1961 à Tanger au MAROC, vit et travaille à PARIS depuis 1979</p>
     
@@ -21,12 +21,12 @@ import Banner from '../components/Banner'
         1982 : Ecole Nationale Supérieure des Beaux-Arts (PARIS)
         <br/>
         1986 : Université PARIS-VIII (SAINT-DENIS)
-        <br/>
-        1989 : IUFM d’ANTHONY (92)
+        {/* <br/>
+        1989 : IUFM d’ANTHONY (92) */}
 
     </p>
 
-    <h2>Diplômes</h2>
+    {/* <h2>Diplômes</h2>
     <p>
         Juin 1986: Diplôme de l’Ecole Nationale Supérieure des Beaux-Arts de PARIS
         <br/>
@@ -37,11 +37,37 @@ import Banner from '../components/Banner'
         Juillet 1991 : Diplôme de l’institut de formation des maîtres au Professorat des Ecoles
         <br/>
         (Inspection Académique de NANTERRE)
-    </p>
+    </p> */}
 
-    <h2>EXPOSITIONS</h2>
+<h2>Entrepreneuriat : Designer Textile</h2>
+<p>
+    Mars 2103 :Création d’entreprise : motifs et teintures sur tissus, objets textiles
+pour l’ameublement et la décoration intérieure
+    <br/>
+    
+</p>
+
+
+    <h2>Expositions : Peintre Plasticienne</h2>
     <p>
+    2012/2023 : Expositions Salons des Créateurs : Paris : Hauts de Seine et Province
+    <br/>
+    
+
+    2011 : ArAnima : Artistes Animaliers, Galerie HIP (PAIS 75)
+    <br/>
+   
+
+Grand Marché de l'Art Contemporain à Bastille (PARIS 75)
+<br/>
+
+Atelier Porte Ouverte (VANVES 92)
+    <br/>
+
+
     2010 : « Soirées Poétiques » Festival Art Danthé (VANVES 92)
+    <br/>
+    Exposition Universelle de Shangaï, Pavillon Francophone (CHINE)
     <br/>
         
         2009 : « Ateliers portes Ouvertes » (VANVES 92) - Journées du Patrimoine (VANVES 92) - Grand Marché de l’Art Contemporain à Bastille (PARIS 75) - Salon National des Artistes Animaliers (BRY SUR MARNE 94)
