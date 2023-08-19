@@ -69,7 +69,7 @@ const handleChangeEmail= (e:any)=>{
  <Banner title='CONTACT'/>
        
 {done == false && <div className='containerAbout'>
-    <h2> ATELIER 147</h2>
+    <h2> ATELIER 84</h2>
     <h2>13, rue de Chatillon 92170 Vanves</h2>
     <br/>
     <br/>
