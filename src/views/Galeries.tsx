@@ -4,10 +4,11 @@ import { dataAssets } from '../data'
 
 const groupGalerie = [
 {nameData : 'ALL', label: 'ALL'},
-{nameData : 'SeriedesTerracota2006', label: 'Serie des Terracota'}, 
-{nameData : 'SeriedesImpressionsTissus2009', label: 'Serie des Impressions Tissus'}, 
-{nameData : 'SeriedesPapiersChinois2011', label: 'Serie des Papiers Chinois'}, 
-{nameData : 'Venus', label: 'Venus'} ]
+{nameData : 'Venus', label: 'Venus 2000'} ,
+{nameData : 'SeriedesTerracota2006', label: 'Serie des Terracota 2006'}, 
+{nameData : 'SeriedesImpressionsTissus2009', label: 'Serie des Impressions Tissus 2009'}, 
+{nameData : 'SeriedesPapiersChinois2011', label: 'Serie des Papiers Chinois 2011'}, 
+]
 
 
 function Galeries() {
