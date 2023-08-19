@@ -71,16 +71,14 @@ code {
   .wrappNavMini{
     display:flex;
     flex-direction: column;
-    width: 30%;
-    margin-top:50px; 
-     margin-left:70px;
+    width: 100%;
      justify-content: center;
      align-items: center;
-  
      background-color: rgb(60, 18, 143);
      z-index: 9999999;
-     border-radius: 15px;
+     border-radius: 0px 0px 15px 15px;
      opacity: 9;
+
   }
   
   .wrappNavMax{
@@ -134,6 +132,7 @@ code {
       position:absolute;
        padding:20px;
        padding-top:10px;
+      
 
   }
   .containerPresse {
@@ -145,10 +144,32 @@ code {
     line-height: 1.4;
   }
   
+  ul li{
+  
+    text-decoration: none;
+    list-style: none;
+    padding:10px;
+    font-size: 20px;
+    font-weight: 600;
+    text-shadow: 1px 0px 0px rgb(13, 9, 9);;
+  
+  
+  }
 
 }
 
 @media screen and (min-width:1001px) {
+  ul li{
+  
+    text-decoration: none;
+    list-style: none;
+    padding:20px;
+    font-size: 20px;
+    font-weight: 600;
+    text-shadow: 1px 0px 0px rgb(13, 9, 9);;
+  
+  
+  }
 
 .menuCss{
 

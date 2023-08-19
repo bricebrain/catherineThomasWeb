@@ -5,10 +5,18 @@ import {Link, useLocation } from 'react-router-dom'
 function Nav() {
     const location = useLocation();
     const [menu, setMenu] = useState<boolean>(false)
-    console.log({location})
 
     const handleMenu =()=>{
         setMenu(prev=>!prev)
+    }
+
+    const changeColor=()=>{
+
+      if(menu){
+        return 'white'
+      }
+      return location.pathname ==='/' ? 'white' : '#333'
+
     }
 
   return (
@@ -16,7 +24,11 @@ function Nav() {
    
     <div  className="containerWrappNav" >
     <div className="menuCss" >
-    <span  onClick={()=>handleMenu()} style={{fontSize:40, color:location.pathname ==='/' ? 'white' : '#333'}} className="material-symbols-outlined">menu</span>
+    <span  onClick={()=>handleMenu()} 
+    
+     style={{fontSize:40, color:changeColor()}}
+    
+    className="material-symbols-outlined">menu</span>
     </div>
     
     <ul >
