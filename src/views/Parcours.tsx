@@ -10,7 +10,7 @@ import Banner from '../components/Banner'
   <div className='containerAbout'>
      
       <h2> Peintre Plasticienne / Designer Textile</h2>
-      <p>Membre de l’Association Internationale des Arts Plastiques (UNESCO)
+      <p>
         Née en 1961 à Tanger au MAROC, vit et travaille à PARIS depuis 1979</p>
     
     <h2> Etudes artistiques</h2>
@@ -51,6 +51,11 @@ pour l’ameublement et la décoration intérieure
     <h2>Expositions : Peintre Plasticienne</h2>
     <p>
     2012/2023 : Expositions Salons des Créateurs : Paris : Hauts de Seine et Province
+    <br/>
+
+    2012/2023 : Creation du film  Colored way  (film peint sur pellicule transparente 16mn)
+    <br/>
+    Presentation du film : Université paris VIII et l'ART EN PARTAGE
     <br/>
     
 
