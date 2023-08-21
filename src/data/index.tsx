@@ -123,7 +123,26 @@ Venus:[
     "Nu_71_WJPG.jpg",
     "Nu_96_JPG.jpg",
     "Nu_97_WJPG.jpg"
-]
+], 
+
+    Photosautravail2010: [
+        'Atelier_10_WJPG.jpg', 'Atelier_23_WJPG.jpg',
+        'Atelier_11_WJPG.jpg', 'Atelier_24_WJPG.jpg',
+        'Atelier_12_WJPG.jpg', 'Atelier_25_WJPG.jpg',
+        'Atelier_13_WJPG.jpg', 'Atelier_26_WJPG.jpg',
+        'Atelier_14_WJPG.jpg', 'Atelier_27_WJPG.jpg',
+        'Atelier_2_WJPG.jpg',
+        'Atelier_15_WJPG.jpg', 'Atelier_3_WJPG.jpg',
+        'Atelier_16_WJPG.jpg', 'Atelier_4_WJPG.jpg',
+        'Atelier_17_WJPG.jpg', 'Atelier_5_WJPG.jpg',
+        'Atelier_18_WJPG.jpg', 'Atelier_6.jpg',
+        'Atelier_19_WJPG.jpg', 'Atelier_7_WJPG.jpg',
+        'Atelier_1_WJPG.jpg', 'Atelier_8_WJPG.jpg',
+        'Atelier_20_WJPG.jpg', 'Atelier_9_WJPG.jpg',
+        'Atelier_21_WJPG.jpg',
+        'Atelier_22_WJPG.jpg'
+
+    ]
 
 
 

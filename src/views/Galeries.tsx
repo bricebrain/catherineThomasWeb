@@ -3,16 +3,17 @@ import Banner from '../components/Banner'
 import { dataAssets } from '../data'
 
 const groupGalerie = [
-{nameData : 'ALL', label: 'ALL'},
+{nameData : 'ALL', label: 'All'},
 {nameData : 'Venus', label: 'Venus 2000'} ,
 {nameData : 'SeriedesTerracota2006', label: 'Serie des Terracota 2006'}, 
 {nameData : 'SeriedesImpressionsTissus2009', label: 'Serie des Impressions Tissus 2009'}, 
+{nameData : 'Photosautravail2010', label: 'Photo atelier 2010'}, 
 {nameData : 'SeriedesPapiersChinois2011', label: 'Serie des Papiers Chinois 2011'}, 
 ]
 
 
 function Galeries() {
-    const ALL =  [...dataAssets.SeriedesTerracota2006, ...dataAssets.SeriedesImpressionsTissus2009,...dataAssets.SeriedesPapiersChinois2011, ...dataAssets.Venus]
+    const ALL =  [...dataAssets.SeriedesTerracota2006, ...dataAssets.SeriedesImpressionsTissus2009,...dataAssets.SeriedesPapiersChinois2011, ...dataAssets.Venus, ...dataAssets.Photosautravail2010]
     const [data, setData] = useState<string[]>(ALL)
     const [select, setSelect] = useState<string>('ALL')
     
@@ -36,6 +37,9 @@ const selectItem=(item:string)=>{
         case 'Venus':
             setData(dataAssets.Venus)
             break;
+        case 'Photosautravail2010':
+                setData(dataAssets.Photosautravail2010)
+                break;
         default:
             setData(ALL)
             break;
@@ -67,7 +71,7 @@ const selectItem=(item:string)=>{
 
     <div className='wrapperGrid'>
     
-      {data.map((item:any) => <img key={crypto.randomUUID()} className='itemGrid' src={require(`../assets/peintures/${item}`)} alt='dgg' style={{objectFit:'contain'}}/>)}
+      {data.map((item:any) => <img key={crypto.randomUUID()} className='itemGrid' src={require(`../assets/peintures/${item}`)} alt={item} style={{objectFit:'contain'}}/>)}
            
           
       
