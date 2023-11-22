@@ -41,7 +41,7 @@ import Banner from '../components/Banner'
 
 <h2>Entrepreneuriat : Designer Textile</h2>
 <p>
-    Mars 2103 :Création d’entreprise : motifs et teintures sur tissus, objets textiles
+    Mars 2013 :Création d’entreprise : motifs et teintures sur tissus, objets textiles
 pour l’ameublement et la décoration intérieure
     <br/>
     
